@@ -1,0 +1,90 @@
+body {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: lightyellow;
+  padding: 1em 0;
+  border-bottom: 2px solid gainsboro;
+}
+
+header .container {
+  margin: auto;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1d294b;
+}
+
+header section {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 1.25em;
+  font-weight: 300;
+  color: #1d294b;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 1em;
+  font-weight: 800;
+  margin: 0;
+}
+
+#social-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#social-nav img {
+  width: 2em;
+  margin-right: 0.5em;
+}
+
+section {
+  width: 90%;
+  max-width: 800px;
+  margin: 3em auto;
+  line-height: 1.5em;
+}
+
+.project {
+  border: 1px solid #222;
+  margin: 0.5em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 640px) {
+  .project {
+    flex-direction: row;
+  }
+}
+
+#project-list {
+  list-style: none;
+}
+
+#project-list h2 {
+  font-size: 1.25em;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  margin: 0 0.25em;
+  border: 2px solid #222;
+}
